@@ -3,6 +3,8 @@ import time
 import threading
 from datetime import datetime
 import pytz
+import telegram
+import requests
 import pandas as pd
 import numpy as np
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
